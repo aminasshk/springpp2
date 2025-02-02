@@ -99,3 +99,34 @@ def category(movies):
             result.append(movie)
     return result
 print(category(movies))
+
+#4
+def imdvpoint(movies,name):
+    sum=0
+    cnt=0
+    for movie in movies:
+        if movie["name"] in name:
+            sum+=movie["imdb"]
+            cnt+=1
+    return sum/cnt
+name=[]
+while name1!="done": 
+    name1=input("name movie:")
+    if name1 == 'done':
+        break
+    name.append(name1)
+print(imdvpoint(movies,name))
+
+#5
+name=str(input("category:"))
+def imdvpoint(movies):
+    avg=0
+    cnt=0
+    for movie in movies:
+        if movie["category"]==name:
+            avg+=movie["imdb"]
+            cnt+=1
+    return avg/cnt
+print(imdvpoint(movies))
+        
+        
