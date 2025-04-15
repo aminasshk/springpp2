@@ -4,7 +4,7 @@ import csv
 # Настройки подключения
 DB_NAME = "postgres"
 DB_USER = "postgres"
-DB_PASSWORD = "Kazakhstan2007"  # 🔒 Замени на свой пароль
+DB_PASSWORD = "Kazakhstan2007"  
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
